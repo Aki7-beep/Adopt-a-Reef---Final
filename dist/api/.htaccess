@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /adopt-a-reef/api/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
