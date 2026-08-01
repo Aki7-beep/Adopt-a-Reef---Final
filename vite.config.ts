@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 /** Folder name under XAMPP htdocs — change if you use a different path */
-const APP_BASE = process.env.VITE_APP_BASE || "/";
+const APP_BASE = process.env.VITE_APP_BASE || "/adopt-a-reef/";
 
 export default defineConfig({
   plugins: [react()],
